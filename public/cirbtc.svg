@@ -1,0 +1,22 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="circleGrad" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2775CA" />
+      <stop offset="100%" stop-color="#1A4F8B" />
+    </linearGradient>
+    <linearGradient id="btcGrad" x1="70" y1="50" x2="186" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F4F8FC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer background circle -->
+  <circle cx="128" cy="128" r="128" fill="url(#circleGrad)" />
+
+  <!-- Circle signature concentric arcs -->
+  <circle cx="128" cy="128" r="116" stroke="white" stroke-opacity="0.18" stroke-width="3" fill="none" />
+  <circle cx="128" cy="128" r="104" stroke="white" stroke-opacity="0.10" stroke-width="2" fill="none" />
+
+  <!-- Bitcoin Symbol -->
+  <path d="M148.5 120.2C155.8 117.8 160.8 112.5 160.8 102.8C160.8 88.5 149.2 82.2 131.6 82.2H124V68H113.6V82.2H103V93.5H113.6V162.5H103V173.8H113.6V188H124V173.8H135.2C154.5 173.8 167.2 166.2 167.2 149.4C167.2 136.2 159.5 123.6 148.5 120.2ZM126.8 94.6H132.8C142.6 94.6 148.2 98.1 148.2 105.8C148.2 113.5 142.4 117.2 132.8 117.2H126.8V94.6ZM134.2 161.4H126.8V136.1H134.2C145.4 136.1 152 140.2 152 148.8C152 157.4 145.4 161.4 134.2 161.4Z" fill="url(#btcGrad)" />
+</svg>

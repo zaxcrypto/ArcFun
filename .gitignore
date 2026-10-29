@@ -1,0 +1,141 @@
+# ==============================================================================
+# ArcFun Repository .gitignore
+# ==============================================================================
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js & Build Outputs
+/.next/
+/out/
+/build
+.vercel
+
+# Environment & Credentials (NEVER commit secrets)
+.env*
+!.env.example
+*.pem
+
+# Testing & Coverage
+/coverage
+coverage.json
+
+# Hardhat Build & Contract Caches
+cache-hardhat/
+artifacts/
+typechain-types/
+*.tsbuildinfo
+next-env.d.ts
+
+# Compiled Binary & Temporary Contract Artifacts
+deployments.json
+temp-abi.json
+args.json
+*.bin
+src_contracts_*.bin
+
+# Database Migrations Protection
+# Only allow migrations in official directories; ignore ad-hoc SQL dumps
+*.sql
+!supabase/migrations/*.sql
+!src/supabase/migrations/*.sql
+supabase/.temp/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+
+# Logs & Debug Outputs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+*.diff
+tsc_errors.log
+tsc_out.txt
+audit_output.txt
+verify_out.txt
+test_output.txt
+admin_eslint.txt
+eslint_out.json
+prod_audit.json
+base_tree.json
+basescan-input.json
+
+# Scratch, Archive, and Ad-Hoc Scripts
+archive/
+scratch/
+scripts/*.local.*
+scripts/*.tmp.*
+scripts/scratch/
+
+# Root-level Ad-hoc Inspection Scripts
+/apply-*.js
+/apply_*.js
+/audit*.js
+/audit*.ts
+/audit-*.js
+/check-*.js
+/check_*.js
+/clear-*.js
+/db_*.js
+/db-trace*.js
+/disable-*.ts
+/e2e-*.ts
+/e2e-*.js
+/fix-*.js
+/fix_*.js
+/fix_*.py
+/forensic-*.ts
+/fund-*.ts
+/generate-*.js
+/inject-trace.js
+/recover*.js
+/recover*.ts
+/run-trace.js
+/scan_*.js
+/scratch_*.js
+/scratch_*.ts
+/scratch_*.txt
+/seed.js
+/setup.js
+/setup-*.ts
+/sim.js
+/simulate-*.js
+/simulate-*.ts
+/test-*.ts
+/test-*.js
+/test_*.js
+/test_*.ts
+/trace-*.js
+/update-*.py
+/verify_*.js
+/verify_changes.js
+/validate-portfolio.ts
+/disable-score-contract.ts
+/fund-test-wallet.ts
+/refund.mjs
+/modify*.js
+/check_base.ts
+/test-mod.mjs
+/test-route.mjs
+/fetch-subscriptions.js
+/fetch-webhook-logs.js
+
+# Internal Work-In-Progress & Temporary Text Dumps
+CHAT_PAY_CHECKPOINT.md
+CLAUDE.md
+Uniswap_Agent_Debug_Log.md
+*.txt
+!README.md
+!src/app/.well-known/security.txt
+!src/app/.well-known/security.txt/**
+src/components/twitter-stats.tsx.new

@@ -1,0 +1,31 @@
+{
+  "name": "ArcFun",
+  "short_name": "ArcFun",
+  "description": "Production cross-chain wallet, bridge, swap and payment platform powered by Circle CCTP.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/icon.svg?v=6",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-32x32.png?v=6",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192x192.png?v=6",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png?v=6",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
